@@ -132,7 +132,7 @@ client.on("message", (message) => {
     }
   }
   ///////////////////////////////////////////////
-  else if (command == "reset" && message.author.id == "307477851299643392") {
+  else if (command == "reset" && message.author.id == "your-admin-id") {
     players.length = 0;
     inGame = false;
     return message.channel.send("The game has been reseted");
